@@ -1,0 +1,259 @@
+.content{
+  font-family: $font-saira;
+
+  &__hero{
+    background: url(../images/content-bg-2.jpg) no-repeat;
+    padding: 0 0 0 250px;
+    background-size: cover;
+    min-height: 400px;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+
+    h4{
+      color: white;
+      font-size: 24px;
+      text-decoration: underline;
+    }
+  }
+
+  &__heading{
+    color: white;
+    font-size: 60px;
+  }
+
+    // about section
+    &__about{
+      padding: 70px 0;
+      background: #020202;
+
+      .about-img-wrapper{
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+    
+        &::after, &::before{
+          content: "";
+          position: absolute;
+          display: block;
+          background-color: #f9f9f9;
+          width: 2px;
+          height: 0px;
+          z-index: 33;
+          transition: $transition-common;
+        }
+      
+        &::before{
+          top: 15px;
+          left: 20px;
+        }
+      
+        &::after{
+          bottom: 15px;
+          right: 20px;
+        }
+        
+        img{
+          transition: $transition-common;
+        }
+      
+        &:hover{
+          &::before {
+            height: 150px;
+            background-color: $dark-color;
+          }
+      
+          &::after {
+            height: 150px;
+            background-color: $dark-color;
+          }
+      
+          img {
+            transform: scale(1.2);
+          }
+        }
+    
+      }
+
+      .about-img {
+        max-height: 560px;
+        min-height: 550px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+      }
+
+      .big-img-wrap{
+        cursor: pointer;
+        margin: 60px auto;
+        text-align: center;
+        width: fit-content;
+        overflow: hidden;
+        img{
+          transition: $transition-common;
+        }
+
+        &:hover{
+          img {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+  
+    &__about-text{
+      h6{
+        position: relative;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: $primary-color;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+  
+        &::before{
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background-color: $primary-color;
+        }
+      }
+  
+      h4{
+        font-size: 52px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 45px;
+        text-transform: capitalize;
+      }
+  
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        margin-bottom: 30px;
+      }
+    }
+  
+    &__about-imgs{
+      position: relative;
+      margin-top: 85px;
+      margin-right: 85px;
+    }
+  
+    
+  
+    
+  
+}
+
+
+/* contact page css  */
+
+
+.contact-sec-2 {
+  position: relative;
+  padding: 100px 0;
+  background: $dark-color-2;
+}
+.contact-sec-2::before {
+  content: '';
+  background: url(../images/slider-bg-2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -80px;
+  width: 860px;
+  height: 600px;
+}
+
+.contact-form {
+  background: $dark-color-2;;
+  padding: 50px 0 50px 100px;
+  z-index: 1;
+  position: relative;
+  color: white;
+
+  h6{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+
+  h2{
+    font-size: 55px;
+  }
+}
+
+.contact-input-wrap {
+  margin-bottom: 10px;
+}
+
+.contact-input-wrap label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.contact-input-wrap input, .contact-input-wrap textarea, .contact-input-wrap select {
+  background: #000;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 0;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #8c8c9a;
+}
+
+.contact-links-wrap {
+  margin-top: 30px;
+}
+
+.contact-links-wrap a {
+  display: block;
+  min-width: auto;
+  text-align: left;
+  color: #2e3192;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+
+.contactnew{
+  padding: 120px 0;
+  color: white;
+  background: $dark-color;
+
+  .single-wrap {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    h2{
+      font-size: 24px;
+    }
+
+    i{
+      color: $primary-color;
+      font-size: 30px;
+      margin-right: 5px;
+    }
+  }
+}
