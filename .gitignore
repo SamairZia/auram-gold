@@ -70,3 +70,5 @@ y
 firebase.json
 
 public/firebase-debug.log
+
+*.zip

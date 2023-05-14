@@ -1275,6 +1275,7 @@ footer .foot-input-wrap button {
 }
 .home__quality {
   padding: 120px 0;
+  background: #121212;
 }
 .home__quality-text {
   display: flex;
@@ -1293,22 +1294,27 @@ footer .foot-input-wrap button {
 .home__quality-text h4 {
   font-size: 42px;
   font-weight: 700;
-  color: #17161a;
+  color: white;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
 .home__quality-text p {
   font-weight: 400;
   font-size: 16px;
-  color: #17161a;
+  color: white;
 }
 .home__quality-img {
   text-align: right;
 }
 .home__quality-img img {
-  border-left: 10px solid white;
+  border-left: 10px solid #121212;
   box-shadow: -10px 0px #c7a267;
   border-radius: 0 4px 4px 0;
+  max-width: 200px;
+}
+
+.gallery .portfolio-data::before {
+  display: none;
 }
 
 .content {

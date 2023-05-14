@@ -95,6 +95,13 @@
   .contactnew .single-wrap {
     margin-bottom: 30px;
   }
+  .home__quality {
+    padding: 80px 0;
+  }
+  .home__quality-img {
+    text-align: center;
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */

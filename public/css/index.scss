@@ -879,6 +879,7 @@
 
   &__quality{
     padding: 120px 0;
+    background: $dark-color;
   }
 
   &__quality-text{
@@ -899,24 +900,33 @@
     h4{
       font-size: 42px;
       font-weight: 700;
-      color: $dark-color-3;
+      color: white;
       margin-bottom: 15px;
       text-transform: capitalize;
     }
     p{
       font-weight: 400;
       font-size: 16px;
-      color: $dark-color-3;
+      color: white;
     }
   }
 
   &__quality-img{
     text-align: right;
     img{
-      border-left: 10px solid white;
+      border-left: 10px solid $dark-color;
       box-shadow: -10px 0px $primary-color;
       border-radius: 0 4px 4px 0;
+      max-width: 200px;
     }
 
+  }
+}
+
+.gallery{
+  .portfolio-data{
+    &::before{
+      display: none;
+    }
   }
 }

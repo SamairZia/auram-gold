@@ -7,6 +7,10 @@
     </div>
   </section>
 
+  <div class="wpb_map_wraper">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.1640060694704!2d55.39313090524384!3d25.27783970730952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c2fc8396653%3A0xc3694eaf0b7c484b!2s19%2016th%20St%20-%20Al%20Qusais%20Industrial%20AreaAl%20Qusais%20Industrial%20Area%202%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1597035084824!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
+  </div>
+
   <section class="contactnew">
     <div class="container">
       <div class="row">

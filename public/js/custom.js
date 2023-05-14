@@ -130,3 +130,6 @@ $(document).ready(function () {
   });
 });
 // responsive navigation ends
+
+
+baguetteBox.run('.gallery');
